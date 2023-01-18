@@ -1,0 +1,11 @@
+clock timezone EST -4
+ntp serer 1.1.1.1
+
+loggin console 7
+
+username marcos privilege 15 secret cisco
+username paulo privilege 15 secret cisco
+
+snmp-server community public ro
+
+interface loopback10
